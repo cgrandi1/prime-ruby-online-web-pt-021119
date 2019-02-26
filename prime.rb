@@ -2,7 +2,7 @@ require 'pry'
 
 def prime?(num)
   range_number = (-Inf..Inf).to_a 
-  
+  binding.pry
   range_number.each do |n|
     if n % n == 0 && n % 1 == 0 
       return true 
