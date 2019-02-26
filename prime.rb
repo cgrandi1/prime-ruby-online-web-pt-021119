@@ -4,7 +4,8 @@ def prime?(num)
   range_number = (-500..100000).to_a 
   range_number.find_all do |num|
     if num % num == 0 && num % 1 == 0 
-      return true 
+      return true
+    elsif neg
   end 
      false 
   end 
