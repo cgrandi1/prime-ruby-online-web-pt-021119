@@ -5,8 +5,6 @@ def prime?(num)
   range_number.each do |num|
     if num % num == 0 && num % 1 == 0 
       return true
-  elsif > 0 
-     return true 
   else
     false
   end 
